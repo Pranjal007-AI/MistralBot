@@ -2,7 +2,7 @@
 
 > A sleek, feature-rich AI chatbot built with Mistral AI & Streamlit
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-7c6bff?style=for-the-badge&logo=streamlit)](YOUR_LIVE_LINK_HERE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-7c6bff?style=for-the-badge&logo=streamlit)](https://mistralbot-u8ftjx9cvmgd2aqknanh7q.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-ff4b4b?style=for-the-badge&logo=streamlit)](https://streamlit.io)
 [![Mistral AI](https://img.shields.io/badge/Mistral-AI-orange?style=for-the-badge)](https://mistral.ai)
@@ -24,7 +24,7 @@
 
 ## 🚀 Live Demo
 
-👉 [Click here to try MistralBot live](YOUR_LIVE_LINK_HERE)
+👉 https://mistralbot-u8ftjx9cvmgd2aqknanh7q.streamlit.app/
 
 ---
 
