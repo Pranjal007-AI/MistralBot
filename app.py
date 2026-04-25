@@ -240,12 +240,18 @@ def build_lc_history():
             history.append(AIMessage(content=m["content"]))
     return history
 
+def get_api_key():
+    try:
+        return st.secrets["MISTRAL_API_KEY"]
+    except Exception:
+        return os.getenv("MISTRAL_API_KEY")
+
 def get_model():
     return ChatMistralAI(
         model=st.session_state.model_name,
         temperature=st.session_state.temperature,
         max_tokens=st.session_state.max_tokens,
-        mistral_api_key=os.getenv("MISTRAL_API_KEY")
+        mistral_api_key=get_api_key()
     )
 
 
